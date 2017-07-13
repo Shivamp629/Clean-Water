@@ -1,0 +1,18 @@
+//jwaldner3
+defaultTasks 'jar'
+
+// this enables java support
+apply plugin: 'java'
+
+//compiles the jar files for gradle to build
+dependencies {
+    compile files('lib/resources.jar')
+}
+
+//sets the path for the jar
+jar {
+  manifest {
+     attributes  'Class-Path' : '../../lib/resources.jar',
+                 'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain'
+    }
+}
