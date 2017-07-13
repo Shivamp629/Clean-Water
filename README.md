@@ -1,14 +1,8 @@
 # Clean Waters Android App
-### CS 2340 (Android Development) Group Project 
-
 An android app to help the user find the nearest clean water resources.
 
 Project Members
-- Riley Osborn
-- Jack Waldner
-- Thomas Thachil
 - Shivam Patel
-- Varun Ballari
 
 App allows users to login, register, change personal information, and based on user type (user, worker, manager, or admin), there are special features for each of those categories.
 
